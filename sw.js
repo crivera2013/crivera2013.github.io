@@ -27,10 +27,10 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-bc68d3fcc411f39c3873.js"
+    "url": "webpack-runtime-ec16d9a00c9c1a52deff.js"
   },
   {
-    "url": "styles.a7ab2172f6095ea0f80f.css"
+    "url": "styles.0b082256eaaae5d39439.css"
   },
   {
     "url": "styles-89fd2ae28bdf06750a71.js"
@@ -42,11 +42,11 @@ self.__precacheManifest = [
     "url": "532a2f07-b004a5d2f37fbac8de1a.js"
   },
   {
-    "url": "app-2ad0c7d537b65bc526d3.js"
+    "url": "app-c077faee3bffa9432fbe.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "101e302b03c05d77ab70932d3e38ef66"
+    "revision": "86d0cec817effef49ea31088f41ffef9"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-c9875e2473a7c518755f.js"
@@ -57,7 +57,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "320e3ca8b29fc0acac509a6f9479ca38"
+    "revision": "8e2eb7adffc0ad9d7ddd8987d94868e5"
   },
   {
     "url": "polyfill-b2290f1301185c382ad0.js"
@@ -68,7 +68,7 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "11d4323aae910c95e601cca814784835"
+    "revision": "3a1667d1022a44aaefeed6721c32e566"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -156,12 +156,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/crivera2013.github.io`), ``)
+  pathname = pathname.replace(new RegExp(`^`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/crivera2013.github.io/app-2ad0c7d537b65bc526d3.js`))) {
+  if (!resources || !(await caches.match(`/app-c077faee3bffa9432fbe.js`))) {
     return await fetch(event.request)
   }
 
@@ -174,7 +174,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/crivera2013.github.io/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
