@@ -4,7 +4,7 @@ const siteConfig = require('./config.js');
 const postCssPlugins = require('./postcss-config.js');
 
 module.exports = {
-  pathPrefix: "/crivera2013.github.io",
+
   siteMetadata: {
     url: siteConfig.url,
     title: siteConfig.title,
