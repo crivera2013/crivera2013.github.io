@@ -1,13 +1,13 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://crivera2013.github.io',
   pathPrefix: '/',
   title: 'Christian Rivera',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-  copyright: '© All rights reserved.',
+  subtitle: 'Because of course this is a thing',
+  copyright: '',
   disqusShortname: '',
-  postsPerPage: 4,
+  postsPerPage: 5,
   googleAnalyticsId: 'UA-73379983-2',
   useKatex: true,
   menu: [
@@ -22,6 +22,10 @@ module.exports = {
     {
       label: 'Portfolio Optimization Dashboard',
       path: 'https://asset-dashboard-cr.appspot.com/'
+    },
+    {
+      label: 'Reinforcement Learning Work',
+      path: '/category/reinforcement-learning'
     }
   ],
   author: {
