@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url> <loc>https://crivera2013.github.io/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://crivera2013.github.io/categories</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://crivera2013.github.io/posts/bayes-portopt</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://crivera2013.github.io/posts/dqn-in-rl</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://crivera2013.github.io/posts/td-in-rl</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://crivera2013.github.io/posts/ceq-in-rl</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://crivera2013.github.io/pages/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://crivera2013.github.io/tag/georgia-tech</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://crivera2013.github.io/category/reinforcement-learning</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://crivera2013.github.io/category/statistics</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://crivera2013.github.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://rivera-dev.com/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://rivera-dev.com/categories</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://rivera-dev.com/pages/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://rivera-dev.com/posts/ceq-in-rl</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://rivera-dev.com/posts/dqn-in-rl</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://rivera-dev.com/posts/td-in-rl</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://rivera-dev.com/posts/bayes-portopt</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://rivera-dev.com/tag/georgia-tech</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://rivera-dev.com/category/reinforcement-learning</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://rivera-dev.com/category/statistics</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://rivera-dev.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
